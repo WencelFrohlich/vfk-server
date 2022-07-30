@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Aktuální soubor",
+            "type": "python",
+            "request": "launch",
+            //"program": "server_app/server.py",
+            "program": "tests/running_tests.py",
+            //"program": "server_app/import.py",
+            //"cwd": "server_app/classes/",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

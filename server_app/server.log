@@ -1,0 +1,1367 @@
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /help [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 45, in get_help
+    return Documentation._get_help()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/documentation.py", line 11, in _get_help
+    with open(Configuration.HTML_TEMPLATES_LOCATION, 'rw') as html_file:
+ValueError: must have exactly one of create/read/write/append mode
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /help [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'get_help' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 53, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 53, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 53, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 53, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 54, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 54, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 54, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 54, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 54, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 54, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'post_file' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 54, in post_file
+    FileSaver(request.files['file'])
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/file_saver.py", line 13, in __init__
+    self.request = request
+NameError: name 'request' is not defined
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 54, in post_file
+    FileSaver(request)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/file_saver.py", line 17, in __init__
+    self._save_file(request, file)
+TypeError: _save_file() takes 2 positional arguments but 3 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 54, in post_file
+    FileSaver(request)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/file_saver.py", line 17, in __init__
+    self._save_file(request, file)
+TypeError: _save_file() takes 2 positional arguments but 3 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 54, in post_file
+    FileSaver(request)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/file_saver.py", line 17, in __init__
+    self._save_file(request, file)
+TypeError: _save_file() takes 2 positional arguments but 3 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 54, in post_file
+    FileSaver(request)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/file_saver.py", line 17, in __init__
+    self._save_file(request, file)
+TypeError: _save_file() takes 2 positional arguments but 3 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/file_saver.py", line 17, in __init__
+    return self._save_file(self.file)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/file_saver.py", line 36, in _save_file
+    Logger.add_log_item('File: {0} is saved!'.format(filename), 'SUCCESS', 'REQUEST')
+NameError: name 'filename' is not defined
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'post_file' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'post_file' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'post_file' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'post_file' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a FileSaver.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 55, in post_file
+    return FileSaver(request)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/file_saver.py", line 17, in __init__
+    self._save_file(self.file)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/file_saver.py", line 32, in _save_file
+    f.save(secure_filename(f.filename))
+NameError: name 'secure_filename' is not defined
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a FileSaver.
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 58, in post_file
+    FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 58, in post_file
+    return FileSaver(request)
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 58, in post_file
+    if FileSaver(request):
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 58, in post_file
+    if FileSaver(request):
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 58, in post_file
+    if FileSaver(request):
+TypeError: __init__() should return None, not 'str'
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 58, in post_file
+    FileSaver(request)
+TypeError: __init__() takes 1 positional argument but 2 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 57, in post_file
+    FileSaver(request)
+TypeError: __init__() takes 1 positional argument but 2 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 57, in post_file
+    FileSaver.save(request)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/fileSaver.py", line 10, in save
+    filename = os.path.join(Configuration.UPLOADED_FILE_LOCATION, secure_filename(f.filename))
+NameError: name 'f' is not defined
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 57, in post_file
+    return FileSaver.save(request)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/fileSaver.py", line 10, in save
+    filename = os.path.join(Configuration.UPLOADED_FILE_LOCATION, secure_filename(f.filename))
+NameError: name 'f' is not defined
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    result = DbManager(filename).get_unique_vb()
+TypeError: __init__() takes 1 positional argument but 2 were given
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /delete/id=74220723999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220724999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220725999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220813999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220832999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220833999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220834999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220857999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220866999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220867999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(id)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 87, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /delete/id=74220723999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220724999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220725999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220813999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220832999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220833999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220834999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220857999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220866999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+ERROR:server:Exception on /delete/id=74220867999 [DELETE]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 69, in delete_by_id
+    result = DbManager().delete_by_id(request.args.get('id'))
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/dbmanager.py", line 85, in delete_by_id
+    return 'Count of deleted rows: {0}'.format(str(self.sql))
+AttributeError: 'DbManager' object has no attribute 'sql'
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789

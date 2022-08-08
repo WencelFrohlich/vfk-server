@@ -17,7 +17,7 @@ class Importer(object):
 
         
     def _create_command(self):
-        self.cmd = '{0} -append -f "PostgreSQL" PG:"host={1} user={2} dbname={3} password={4}" {5} -nln "{6}" {7} -skipfailures'.format(
+        self.cmd = '{0} -append -f "PostgreSQL" PG:"host={1} user={2} dbname={3} password={4}" {5} -nln "{6}" {7} -skipfailures '.format(
             Configuration.OGR2OGR_PATH,
             Configuration.DB['domain'],
             Configuration.DB['user'],
@@ -33,7 +33,7 @@ class Importer(object):
             return False
         env = os.environ.copy()
         env["PGPASSWORD"] = Configuration.DB['password']
-        result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+        result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         if result.returncode == 0:
             Logger.add_log_item('Import file: {0} into table: {1} was successfull!'.format(self.filepath, self.table_name), 'SUCCESS', 'IMPORTER')
         else:

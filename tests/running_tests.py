@@ -81,9 +81,9 @@ class TestsRunner():
                 files = {'file': open(file,'rb')}
                 request = requests.post(url, files=files)
                 if request.ok:
+                    print('Unique rows are: {0}'.format(str(request.content)))
                     TestLogger.passed(name)
                 else:
-                    print(request.status_code)
                     TestLogger.failed(name)
             except:
                 TestLogger.failed(name)

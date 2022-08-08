@@ -924,3 +924,399 @@
 [SUCCESS][2022-07-30T21:48:35.354731][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
 [SUCCESS][2022-07-30T21:48:35.384000][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
 [SUCCESS][2022-07-30T21:48:35.411870][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:33:56.748815][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:33:58.747515][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:33:58.758012][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:33:59.493816][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T19:33:59.501145][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:33:59.613698][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T19:33:59.621577][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:34:01.048907][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T19:34:01.056456][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:34:01.074482][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:34:01.093286][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:34:01.112085][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:34:01.129259][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:34:01.146282][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:34:01.163775][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:34:01.180898][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:34:01.197854][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:34:01.214820][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:34:01.235647][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:34:42.165058][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:34:44.097658][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:34:44.108201][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:35:47.789024][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:35:49.768242][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:35:49.778474][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:35:54.223587][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T19:35:54.237720][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:37:27.704766][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:37:29.586655][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:37:29.596413][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:38:37.210723][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:38:39.151819][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:38:39.163802][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:38:39.858635][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T19:38:39.868683][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:38:40.021430][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T19:38:40.030188][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:38:41.445734][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T19:38:41.457983][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:38:41.501783][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:38:41.540065][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:38:41.555629][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:38:41.571382][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:38:41.594318][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:38:41.610260][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:38:41.629514][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:38:41.646599][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:38:41.664594][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:38:41.681008][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:39:00.060673][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:39:01.955267][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:39:01.967284][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:40:07.069636][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:40:10.357664][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:40:10.373598][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:40:10.388631][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:40:10.407421][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:40:10.423209][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:40:10.437185][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:40:10.454718][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:40:10.471033][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:40:10.491782][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:40:10.507090][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:41:02.538726][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:41:05.843620][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:41:05.860330][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:41:05.877518][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:41:05.894742][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:41:05.911466][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:41:05.927864][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:41:05.945694][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:41:05.960874][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:41:05.979649][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:41:05.994882][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:41:16.587015][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:41:19.822379][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:41:19.839430][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:41:19.854682][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:41:19.869820][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:41:19.888322][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:41:19.904016][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:41:19.921131][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:41:19.938536][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:41:19.956337][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:41:19.974644][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:42:04.495162][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:42:06.374689][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:42:06.389753][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:42:06.405401][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:42:06.425052][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:42:06.441164][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:42:06.456714][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:42:06.471246][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:42:06.492360][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:42:06.508627][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:42:06.525973][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:42:56.251998][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:42:58.128928][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:42:58.144731][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:42:58.161831][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:42:58.177604][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:42:58.195010][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:42:58.209176][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:42:58.224847][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:42:58.250712][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:42:58.268172][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:42:58.284597][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:44:32.404176][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:44:32.413985][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:44:32.421249][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:44:33.292061][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T19:44:33.299660][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:44:33.309096][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:44:33.456020][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T19:44:33.463719][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:44:33.472624][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:44:34.287287][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T19:44:34.295214][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:44:34.309086][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:47:43.713045][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:47:43.725739][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:47:43.737270][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:47:44.364154][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T19:47:44.373951][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:47:44.382401][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:47:44.534033][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T19:47:44.545157][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:47:44.569736][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:47:45.198779][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T19:47:45.208079][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:47:45.237508][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:49:18.497568][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:49:18.510475][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:49:18.521550][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:49:19.057999][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T19:49:19.066720][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:49:19.078242][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:49:19.184345][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T19:49:19.192011][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:49:19.202481][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:49:19.755921][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/vfk_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T19:49:19.763885][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:49:19.774307][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74217535999;" was successfull 
+[SUCCESS][2022-08-08T19:49:46.325195][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:49:48.246112][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:49:48.256876][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:49:48.951120][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T19:49:48.961773][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:49:49.094851][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T19:49:49.106854][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:49:50.490806][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T19:49:50.502129][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:49:50.534327][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:49:50.556923][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:49:50.578067][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:49:50.597508][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:49:50.615623][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:49:50.636631][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:49:50.658419][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:49:50.676390][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:49:50.694277][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:49:50.712580][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:50:49.243670][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:50:51.168076][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:50:51.177889][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:50:51.906439][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T19:50:51.918344][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:50:52.076785][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T19:50:52.085427][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:50:53.803527][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T19:50:53.814319][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:50:53.851066][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:50:53.869739][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:50:53.887806][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:50:53.907040][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:50:53.924999][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:50:53.950169][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:50:53.968185][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:50:53.984719][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:50:54.002756][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:50:54.020907][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T19:51:06.830830][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T19:51:08.738625][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T19:51:08.748446][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:51:09.132701][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T19:51:09.140286][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:51:09.246810][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T19:51:09.254196][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:51:10.358402][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T19:51:10.365337][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T19:51:10.385158][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T19:51:10.405708][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T19:51:10.426353][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T19:51:10.445058][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T19:51:10.465171][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T19:51:10.486830][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T19:51:10.515515][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T19:51:10.535502][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T19:51:10.557254][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T19:51:10.580259][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T20:08:06.046046][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:08:08.053935][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T20:08:08.069598][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T20:08:08.088201][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T20:08:08.103463][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T20:08:08.118532][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T20:08:08.136464][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T20:08:08.153495][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T20:08:08.170769][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T20:08:08.191931][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T20:08:08.206818][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T20:08:32.478544][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:08:34.536498][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T20:08:34.556672][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T20:08:34.575464][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T20:08:34.598618][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T20:08:34.614879][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T20:08:34.634737][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T20:08:34.653981][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T20:08:34.681345][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T20:08:34.703619][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T20:08:34.721297][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T20:08:48.356985][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:08:51.539350][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T20:08:51.557051][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T20:08:51.575869][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T20:08:51.591519][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T20:08:51.607385][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T20:08:51.625902][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T20:08:51.642920][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T20:08:51.661534][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T20:08:51.679438][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T20:08:51.695203][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T20:09:26.180931][SERVER]: Server: VFK processor server was successfully started! 
+[ERROR][2022-08-08T20:09:29.310072][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:09:29.326935][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:09:29.343110][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:09:29.359714][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:09:29.377203][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:09:29.393017][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:09:29.408697][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:09:29.425626][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:09:29.440032][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:09:29.456879][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[SUCCESS][2022-08-08T20:10:05.892419][SERVER]: Server: VFK processor server was successfully started! 
+[ERROR][2022-08-08T20:10:09.126197][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:10:09.141697][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:10:09.160017][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:10:09.177256][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:10:09.192490][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:10:09.207623][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:10:09.224542][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:10:09.237810][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:10:09.253688][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:10:09.268964][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[SUCCESS][2022-08-08T20:12:33.705975][SERVER]: Server: VFK processor server was successfully started! 
+[ERROR][2022-08-08T20:12:36.882124][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:12:36.898416][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:12:36.913603][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:12:36.940506][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:12:36.959209][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:12:36.977798][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:12:36.994892][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:12:37.013631][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:12:37.033508][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:12:37.048787][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[SUCCESS][2022-08-08T20:14:31.917816][SERVER]: Server: VFK processor server was successfully started! 
+[ERROR][2022-08-08T20:14:35.188328][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:14:35.209727][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:14:35.226193][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:14:35.244584][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:14:35.265678][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:14:35.283370][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:14:35.300810][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:14:35.327582][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:14:35.352157][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[ERROR][2022-08-08T20:14:35.375079][POSTGRESQL]: Problem with running SQL: "Delete VB by ID" 
+[SUCCESS][2022-08-08T20:15:17.775413][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:15:19.749655][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T20:15:19.759234][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T20:15:20.701784][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T20:15:20.709433][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T20:15:20.848893][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T20:15:20.857515][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T20:15:22.702486][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T20:15:22.709920][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T20:15:22.731291][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T20:15:22.747405][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T20:15:22.764519][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T20:15:22.787301][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T20:15:22.814192][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T20:15:22.837794][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T20:15:22.858614][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T20:15:22.883395][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T20:15:22.899967][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T20:15:22.918027][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T20:16:08.278970][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:16:10.187671][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk into table: 624217_ZPMZ_00929_vfk was successfull! 
+[SUCCESS][2022-08-08T20:16:10.199136][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T20:16:11.130658][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk into table: 654175_ZPMZ_00131_vfk was successfull! 
+[SUCCESS][2022-08-08T20:16:11.137964][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T20:16:11.279307][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk into table: 684007_ZPMZ_00331_vfk was successfull! 
+[SUCCESS][2022-08-08T20:16:11.287162][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T20:16:12.901910][IMPORTER]: Import file: /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK into table: 709433_1668EX_229716210010 was successfull! 
+[SUCCESS][2022-08-08T20:16:12.909749][POSTGRESQL]: SQL command: "SELECT DISTINCT id FROM "public"."vfk";" was successfull 
+[SUCCESS][2022-08-08T20:16:12.930061][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220723999;" was successfull 
+[SUCCESS][2022-08-08T20:16:12.948189][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220724999;" was successfull 
+[SUCCESS][2022-08-08T20:16:12.969447][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220725999;" was successfull 
+[SUCCESS][2022-08-08T20:16:12.988074][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220813999;" was successfull 
+[SUCCESS][2022-08-08T20:16:13.007986][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220832999;" was successfull 
+[SUCCESS][2022-08-08T20:16:13.026250][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220833999;" was successfull 
+[SUCCESS][2022-08-08T20:16:13.044796][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220834999;" was successfull 
+[SUCCESS][2022-08-08T20:16:13.065276][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220857999;" was successfull 
+[SUCCESS][2022-08-08T20:16:13.084644][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220866999;" was successfull 
+[SUCCESS][2022-08-08T20:16:13.103072][POSTGRESQL]: SQL command: "DELETE FROM "public"."vfk" WHERE "id" = 74220867999;" was successfull 
+[SUCCESS][2022-08-08T20:32:38.507780][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:32:58.334618][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T20:34:01.520891][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:34:08.903670][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T20:44:28.366565][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:44:51.962889][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:46:14.019027][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:47:17.611051][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:47:45.199897][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:51:54.350519][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:53:54.486248][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:55:25.650295][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:56:27.971618][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T20:59:29.321567][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:03:30.805643][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:05:54.635857][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:08:08.181408][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:10:08.143560][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:10:32.258613][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:11:26.443073][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:13:18.851550][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:19:01.786303][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:19:32.517183][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:19:36.964027][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:22:34.294561][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:23:36.548395][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:24:34.443152][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:25:16.215613][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:27:32.122015][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:28:24.231811][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:32:49.892924][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:34:01.211077][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:34:43.878828][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:35:13.851831][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:35:56.044702][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:36:40.772327][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:38:02.093339][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:38:29.630050][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:42:45.256636][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:45:15.128661][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:45:20.076485][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:46:13.983672][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:46:16.691934][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:46:23.504808][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:48:14.366196][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:48:17.590159][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:51:21.706674][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:51:24.624864][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:51:50.325460][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:51:56.557527][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:53:45.708507][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:55:01.389828][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:55:06.004169][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:57:24.287221][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:57:28.901612][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:57:31.269454][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T21:57:49.000258][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T21:57:52.627417][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:00:02.405311][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:00:06.162193][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:00:53.979963][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:00:57.832007][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:01:27.122757][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:02:02.735836][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:02:06.811175][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:03:39.269648][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:03:44.712151][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:04:46.217352][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:04:49.565504][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:05:45.616174][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:05:49.274300][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:07:06.599583][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:07:11.309291][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:07:50.051172][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:07:54.519611][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:08:00.832965][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:08:21.542401][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:08:24.450852][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:14:48.193225][SERVER]: Server: VFK processor server was successfully started! 
+[SUCCESS][2022-08-08T22:14:53.008759][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 
+[SUCCESS][2022-08-08T22:15:18.378896][POSTGRESQL]: SQL command: "SELECT * FROM public.vfk_for_map" was successfull 

@@ -83,3 +83,11 @@ class DbManager(object):
         self._destroy_cursor()
         self._destroy_connection()
         return 'Count of deleted rows: {0}'.format(str(result))
+
+    def get_layer(self):
+        self._create_connection()
+        self._create_cursor()
+        result = self._execute_sql('SELECT * FROM {1}.{0}'.format(Configuration.VB_FOR_MAP, Configuration.DB['schema']), 'Get transformed layer for showing in OpenLayers')
+        self._destroy_cursor()
+        self._destroy_connection()
+        return str(result)

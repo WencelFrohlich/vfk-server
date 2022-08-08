@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from crypt import methods
 import os
 import sys
 import gzip
@@ -8,9 +9,11 @@ import gzip
 import io
 
 from flask import Flask
+from flask import abort
 from flask import request
+from flask import Response
+from flask import render_template
 from werkzeug.utils import secure_filename
-from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.datastructures import FileStorage
 from werkzeug.utils import secure_filename
 
@@ -23,7 +26,7 @@ from classes.dbmanager import DbManager
 from waitress import serve
 import logging
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=Configuration.HTML_TEMPLATE_FOLDER)
 logging.basicConfig(filename=os.path.join(Configuration.LOGGER_FILE_LOCATION), level=logging.DEBUG)
 
 class Server(object):
@@ -34,6 +37,8 @@ class Server(object):
         self._get_help()
         self._post_file()
         self._delete_by_id()
+        self._get_layer()
+        self._get_index()
 
     def _create_app(self):
         self.app.config.from_mapping(
@@ -60,7 +65,10 @@ class Server(object):
                 Importer(filename)
                 result = DbManager().get_unique_vb()
                 if len(result) > 0:
-                    return 'File: {0} was saved successfully! Unique IDs are: {1}'.format(filename, str(result))
+                    #return 'File: {0} was saved successfully! Unique IDs are: {1}'.format(filename, str(result))
+                    return str(result)
+            else:
+                abort(400)
 
     def _delete_by_id(self):
         @app.route('/delete/<id>',methods=['DELETE'])
@@ -69,7 +77,28 @@ class Server(object):
                 result = DbManager().delete_by_id(id)
                 return str(result)
             else:
-                return 'Chyba'
+                abort(400)
+
+    def _get_layer(self):
+        @app.route('/get_layer', methods=['GET'])
+        def get_layer():
+            if request.method == 'GET':
+                result = DbManager().get_layer()
+                return Response(result, mimetype='application/json')
+            else:
+                abort(400)
+
+    def _get_index(self):
+        @app.route('/', methods=['GET'])
+        def get_index():
+            if request.method == 'GET':
+                try:
+                    return render_template(Configuration.HTML_BASE_PAGE)
+                except Exception as e:
+                    return str(e)
+            else:
+                abort(500)
+
  
 if __name__ == '__main__':
     try:

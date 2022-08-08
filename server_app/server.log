@@ -1365,3 +1365,1788 @@ INFO:waitress:Serving on http://0.0.0.0:6789
 INFO:waitress:Serving on http://0.0.0.0:6789
 INFO:waitress:Serving on http://0.0.0.0:6789
 INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=False, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB -skipfailures'
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=False, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB -skipfailures'
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=False, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB -skipfailures'
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=False, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB -skipfailures'
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=False, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB -skipfailures'
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=False, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB -skipfailures'
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=False, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB -skipfailures'
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 60, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=False, env=env)
+  File "/usr/lib/python3.8/subprocess.py", line 493, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB -skipfailures'
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  - -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  - -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  - -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  - -t_srs EPSG:3857 ' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  - -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  - -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  - -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  - -t_srs EPSG:3857 ' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/624217_ZPMZ_00929_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/654175_ZPMZ_00131_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/684007_ZPMZ_00331_vfk.vfk -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+ERROR:server:Exception on /post_and_process_vfk [POST]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server_app/server.py", line 61, in post_file
+    Importer(filename)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 16, in __init__
+    self._run_command()
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/classes/importer.py", line 36, in _run_command
+    result = subprocess.run(self.cmd, check=True, shell=True, env=env, capture_output=False)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/usr/bin/ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=sa dbname=vfk password=superadmin----" /home/enviwork/Dokumenty/ukol_vfk/server_app/uploaded_files/709433_1668EX_229716210010.VFK -nln "vfk" ZVB -skipfailures -s_srs EPSG:4326  -t_srs EPSG:3857 ' returned non-zero exit status 1.
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'get_layer' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template('/home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html')
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template('/home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html')
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template('/home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html')
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template('/home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html')
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template('/home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html')
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 96, in get_index
+    return render_template('/home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html')
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+INFO:waitress:Serving on http://0.0.0.0:6789
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+ERROR:server:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/enviwork/Dokumenty/ukol_vfk/server_app/server.py", line 95, in get_index
+    return render_template(Configuration.HTML_BASE_PAGE)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 155, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/enviwork/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/enviwork/.local/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/enviwork/Dokumenty/ukol_vfk/server_app/html_templates/base.html
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789
+INFO:waitress:Serving on http://0.0.0.0:6789

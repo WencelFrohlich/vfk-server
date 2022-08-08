@@ -10,7 +10,9 @@ class Configuration(object):
     LOGGER_FILE_LOCATION = os.path.join(BASE_LOCATION, 'server.log')
     LOGGER_VFK_PROCESSOR_FILE = os.path.join(BASE_LOCATION, 'vfk_processor.log')
 
+    HTML_TEMPLATE_FOLDER = os.path.join(BASE_LOCATION, 'html_templates')
     HTML_TEMPLATES_LOCATION = os.path.join(BASE_LOCATION, 'html_templates', 'help.html')
+    HTML_BASE_PAGE = 'index.html'
     UPLOADED_FILE_LOCATION = os.path.join(BASE_LOCATION,'uploaded_files')
     UPLOADED_FILE_EXENTSIONS = ['vfk']
 
@@ -18,6 +20,7 @@ class Configuration(object):
 
     VB_LAYER_NAME = 'ZVB'
     VB_TABLE_NAME = 'vfk'
+    VB_FOR_MAP = 'vfk_for_map'
 
     DB = {
         'domain' : 'localhost',

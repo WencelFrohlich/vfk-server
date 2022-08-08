@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GeoJSON</title>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.15.1/build/ol.js"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.15.1/css/ol.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .map {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+    <script>
+
+
+        const vectorSource = new ol.source.Vector({
+            title: 'added Layer',
+            source: new ol.source.Vector({
+                projection: 'EPSG:4326',
+                format: ol.format.GeoJSON()
+            })
+        })
+
+        const vectorLayer = new ol.layer.Vector({
+            source: vectorSource
+        });
+
+        console.log(vectorSource);
+
+        const tiledosm = new ol.layer.Tile({
+            source: new ol.source.OSM(),
+        })
+
+        const map = new ol.Map({
+            layers: [
+                tiledosm,
+                vectorLayer
+            ],
+            target: 'map',
+            view: new ol.View({
+                center: [18, 49],
+                zoom: 5,
+            }),
+        });
+
+        $.ajax({
+            type: 'GET',
+            url: 'http://localhost:6789/get_layer',
+            dataType: 'json',
+            success: function (data) {
+                console.log(data);
+                var features = (new ol.format.GeoJSON()).readFeatures(data.geometry)
+                vectorSource.addFeatures(features)
+            },
+            error: function (error) {
+                console.log(error);
+                //console.log(data);
+                // error alert message
+                alert('error :: ' + eval(error));
+            }
+        })
+
+    </script>
+</body>
+
+</html>

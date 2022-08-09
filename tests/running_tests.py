@@ -1,16 +1,29 @@
+# -*- coding: utf-8 -*-
+
+__author__ = "Vaclav Frohlich"
+__copyright__ = "Copyright 2022"
+__license__ = "GPL"
+__version__ = "0.1"
+__maintainer__ = "Vaclav Frohlich"
+__email__ = "vaclav @ frohlich . xyz"
+__status__ = "Develop"
+
 import os
 import requests
 import time
-import json
 
 class TestLogger():
+    COLUMNS =  os.get_terminal_size(0).columns
     def passed(message):
-        print('[TEST]   "{0}" was passed'.format(message))
+        print('-'* TestLogger.COLUMNS + '\n[TEST]   "{0}" was passed'.format(message))
 
     def failed(message):
-        print('[TEST]   "{0}" was failed'.format(message))
+        print('-'* TestLogger.COLUMNS + '\n[TEST]   "{0}" was failed'.format(message))
 
 class Tests():
+    """
+    This class run test for checking VFK server valid functions
+    """
     TESTS = {
         'GET_HELP' : {
             'name' : 'Test HELP get method',
@@ -33,6 +46,11 @@ class Tests():
             'method' : 'delete',
             'url' : 'http://0.0.0.0:6789/delete/',
             'ids' : [74220723999, 74220724999, 74220725999, 74220813999, 74220832999, 74220833999, 74220834999, 74220857999, 74220866999, 74220867999]
+        },
+        'GET_MAP' : {
+            'name' : 'Testing loading map',
+            'method' : 'get',
+            'url' : 'http://0.0.0.0:6789/'
         }
     }
 

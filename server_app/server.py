@@ -3,16 +3,13 @@
 from crypt import methods
 import os
 import sys
-import gzip
-
-
-import io
 
 from flask import Flask
 from flask import abort
 from flask import request
 from flask import Response
 from flask import render_template
+from flask import json
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
 from werkzeug.utils import secure_filename
@@ -30,6 +27,10 @@ app = Flask(__name__, template_folder=Configuration.HTML_TEMPLATE_FOLDER)
 logging.basicConfig(filename=os.path.join(Configuration.LOGGER_FILE_LOCATION), level=logging.DEBUG)
 
 class Server(object):
+    """
+    Main class for running server instance
+    """
+
     def __init__(self, app):
         self.app = app
         self.config = Configuration
@@ -65,8 +66,9 @@ class Server(object):
                 Importer(filename)
                 result = DbManager().get_unique_vb()
                 if len(result) > 0:
-                    #return 'File: {0} was saved successfully! Unique IDs are: {1}'.format(filename, str(result))
                     return str(result)
+                else:
+                    return "Nothing rows"
             else:
                 abort(400)
 
@@ -84,7 +86,7 @@ class Server(object):
         def get_layer():
             if request.method == 'GET':
                 result = DbManager().get_layer()
-                return Response(result, mimetype='application/json')
+                return Response(json.dumps(eval(result)), mimetype='application/json')
             else:
                 abort(400)
 
@@ -98,7 +100,6 @@ class Server(object):
                     return str(e)
             else:
                 abort(500)
-
  
 if __name__ == '__main__':
     try:

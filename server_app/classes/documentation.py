@@ -1,11 +1,21 @@
 # -*- coding: utf-8 -*-
 
-import logging
+__author__ = "Vaclav Frohlich"
+__copyright__ = "Copyright 2022"
+__license__ = "GPL"
+__version__ = "0.1"
+__maintainer__ = "Vaclav Frohlich"
+__email__ = "vaclav @ frohlich . xyz"
+__status__ = "Develop"
+
 import os
 from classes.configuration import Configuration
 from classes.logger import Logger
 
 class Documentation(object):
+    """
+    Class for testing loading file and sent via server to client
+    """
     def _get_help():
         if os.path.exists(Configuration.HTML_TEMPLATES_LOCATION):
             try:

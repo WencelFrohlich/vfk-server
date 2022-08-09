@@ -1,5 +1,14 @@
+# -*- coding: utf-8 -*-
+
+__author__ = "Vaclav Frohlich"
+__copyright__ = "Copyright 2022"
+__license__ = "GPL"
+__version__ = "0.1"
+__maintainer__ = "Vaclav Frohlich"
+__email__ = "vaclav @ frohlich . xyz"
+__status__ = "Develop"
+
 import os
-import subprocess
 import psycopg2
 
 from classes.configuration import Configuration
@@ -90,4 +99,4 @@ class DbManager(object):
         result = self._execute_sql('SELECT * FROM {1}.{0}'.format(Configuration.VB_FOR_MAP, Configuration.DB['schema']), 'Get transformed layer for showing in OpenLayers')
         self._destroy_cursor()
         self._destroy_connection()
-        return str(result)
+        return str(result[0][0])
